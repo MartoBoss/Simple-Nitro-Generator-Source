@@ -5,7 +5,7 @@ value = 1
 while value <= amount:
 	code = "https://discord.gift/" + ('').join(
 	    random.choices(string.ascii_letters + string.digits, k=16))
-	f = open('Codes by LuckAxx.txt', "a+")
+	f = open('Codes by $MartoBossX.txt', "a+")
 	f.write(f'{code}\n')
 	f.close()
 	print(f'{code}')
